@@ -1,0 +1,15 @@
+package com.klu.SIXml;
+
+/**
+ * Hello world!
+ */
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        
+ApplicationContext context=new ClassPathxmlApplicationContext("beans.xml");
+Department dd=(Department) context.getBean("d");
+        	
+        
+    }
+}
